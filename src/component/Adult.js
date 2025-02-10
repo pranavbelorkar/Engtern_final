@@ -25,6 +25,8 @@ const SEO = {
     "professional development course",
     "business communication skills",
   ].join(", "),
+  canonicalUrl: "https://www.engtern.com/Adult-public-speaking",
+  ogImage: "https://www.engtern.com/og-image-Adult-program.jpg",
 }
 
 // Rest of your animations configuration

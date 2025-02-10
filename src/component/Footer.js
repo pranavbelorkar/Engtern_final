@@ -17,32 +17,7 @@ const Footer = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Engtern | Public Speaking Training Footer</title>
-        <meta
-          name="description"
-          content="Explore Engtern's public speaking training resources, contact information, and social media presence. Improve your communication skills with our expert-led programs."
-        />
-        <meta
-          name="keywords"
-          content="public speaking, communication skills, presentation skills, Engtern, online courses, tutors, beginner speaking, intermediate speaking, advanced speaking"
-        />
-        <link rel="canonical" href="https://www.engtern.com" />
-        <meta property="og:title" content="Engtern | Public Speaking Training Footer" />
-        <meta
-          property="og:description"
-          content="Explore Engtern's public speaking training resources, contact information, and social media presence. Improve your communication skills with our expert-led programs."
-        />
-        <meta property="og:url" content="https://www.engtern.com" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Engtern | Public Speaking Training Footer" />
-        <meta
-          name="twitter:description"
-          content="Explore Engtern's public speaking training resources, contact information, and social media presence. Improve your communication skills with our expert-led programs."
-        />
-      </Helmet>
-      <footer className="w-full bg-gray-100 text-gray-800">
+          <footer className="w-full bg-gray-100 text-gray-800">
         <style jsx>{`
           @media (max-width: 640px) {
             .max-w-7xl {

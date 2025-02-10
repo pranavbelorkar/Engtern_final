@@ -1,8 +1,7 @@
 import { useState } from "react"
-// Update these imports to match your project structure
-import aboutgirls from "../asset/img/about_girl.png" // Changed from assets to asset
-import diya from "../asset/img/diya.webp" // Changed from assets to asset
-import prashantsir from "../asset/img/prashantsir.webp" // Changed from assets to asset
+import aboutgirls from "../asset/img/about_girl.png"
+import diya from "../asset/img/diya.webp"
+import prashantsir from "../asset/img/prashantsir.webp"
 import { Facebook, Instagram, Linkedin } from "lucide-react"
 
 const About = () => {
@@ -19,7 +18,7 @@ const About = () => {
         />
         <meta
           name="keywords"
-          content="English speaking course, public speaking training, communication skills development, professional English training, English language institute, public speaking classes, English fluency, personality development, spoken English, presentation skills"
+          content="English speaking course, public speaking training, communication skills development, professional English training, English language institute, public speaking classes, English fluency, personality development, spoken English, presentation skills ,Best English speaking institute in India,Top-rated public speaking courses,Where to learn English speaking online,Public speaking coaching near me,Online English fluency training for professionals,Best platform to improve communication skills,How to master public speaking easily,Affordable spoken English classes with experts,Public speaking tips for beginners,Top personal development courses in India,Expert-led public speaking sessions,Spoken English course for kids & adults,How to gain confidence in public speaking,Online English learning for career growth,Best communication skills trainer in India,Where to find one-on-one English classes,Best platform for professional English learning,Effective online public speaking coaching,English improvement training with experts,Best spoken English course for job seekers"
         />
         {/* Open Graph Tags */}
         <meta property="og:title" content="About Engtern | Professional English & Public Speaking Training" />
@@ -28,6 +27,17 @@ const About = () => {
           content="Transform your communication skills with Engtern's expert-led English and public speaking training programs. Join our comprehensive courses for personal and professional growth."
         />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.engtern.com/about" />
+        <meta property="og:image" content="https://www.engtern.com/og-image.jpg" />
+        {/* Twitter Card Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@engtern" />
+        <meta name="twitter:title" content="About Engtern | Professional English & Public Speaking Training" />
+        <meta
+          name="twitter:description"
+          content="Transform your communication skills with Engtern's expert-led English and public speaking training programs. Join our comprehensive courses for personal and professional growth."
+        />
+        <meta name="twitter:image" content="https://www.engtern.com/twitter-image.jpg" />
       </head>
 
       {/* CSS Animations */}
@@ -243,6 +253,36 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      {/* Structured Data */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "EducationalOrganization",
+          name: "Engtern",
+          description:
+            "Engtern is a premier English language and public speaking training institute led by expert instructors.",
+          url: "https://www.engtern.com",
+          logo: "https://www.engtern.com/logo.png",
+          sameAs: [
+            "https://www.facebook.com/profile.php?id=61570419377220",
+            "https://www.instagram.com/engtern2025/",
+            "https://www.linkedin.com/in/engtern-english-made-easy-749b7a343/",
+          ],
+          founder: [
+            {
+              "@type": "Person",
+              name: "Diya Pant",
+              jobTitle: "Co-Founder, English Communication & Public Speaker",
+            },
+            {
+              "@type": "Person",
+              name: "Prashant Kadhao",
+              jobTitle: "Co-Founder Technical Partner",
+            },
+          ],
+        })}
+      </script>
     </div>
   )
 }

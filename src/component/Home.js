@@ -732,12 +732,6 @@ const HomePage = () => {
           </div>
         )}
       </div>
-    {/* </div>
-  )
-} */}
-
-
-
 
       <style jsx>{`
         .hero-section {
